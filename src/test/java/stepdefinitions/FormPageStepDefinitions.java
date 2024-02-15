@@ -82,6 +82,12 @@ public class FormPageStepDefinitions {
     @When("user enters username, password and comment")
     public void user_enters_username_password_and_comment(io.cucumber.datatable.DataTable dataTable) throws InterruptedException {
 
+        List<String> row3 = dataTable.row(2);//row() methodu ile istenen satır List haline alınabilir
+        System.out.println("row3 = " + row3);
+
+        String r2c2 = dataTable.cell(1,1);//cell() methodu ile istenen hücre String olarak alınabilir.
+        System.out.println("r2c2 = " + r2c2);
+
         //2'den fazla sütunu bulunana data table için List<List<>> yapısı daha uygundur.
         List<List<String>> rows = dataTable.asLists();
         System.out.println("rows = " + rows);

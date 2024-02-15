@@ -1,13 +1,13 @@
 package utilities;
 
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
 
-    private static Properties properties; // Yapılandırma verilerini saklamak için Properties
-    // nesnesi oluşturuluyor.
+    private static Properties properties; // Yapılandırma verilerini saklamak için Properties nesnesi oluşturuluyor.
 
     static {
         String filePath = "configuration.properties"; // Yapılandırma dosyasının yolu belirleniyor.
