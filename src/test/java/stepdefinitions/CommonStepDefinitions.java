@@ -14,7 +14,7 @@ public class CommonStepDefinitions {
     }
 
     @Given("go to {string}")
-    public void go_to(String url) {
+    public void  go_to(String url) {
 
         Driver.getDriver().get(url);
 

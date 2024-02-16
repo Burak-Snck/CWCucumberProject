@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -21,7 +22,7 @@ public class Hooks {
 
     @After//import io.cucumber.java.After;
     public void tearDown(Scenario scenario){
-        System.out.println("Hooks Class @After Methodu");
+        //System.out.println("Hooks Class @After Methodu");
         if (scenario.isFailed()){//Eğer scenario fail olursa
 
             System.out.println("Senaryo başarısız oldu");
@@ -30,10 +31,10 @@ public class Hooks {
             System.out.println("Başarısız senaryo için ekran görüntüsü alındı: " + scenario.getName());
             // Tarayıcıda rapor açıldığında ekli olan resme tıklayarak ekran görüntüsünü görebilirsiniz.
 
-            Driver.closeDriver();
         }
 
+        try {Thread.sleep(3000);} catch (InterruptedException ignored) {}
+
+        Driver.closeDriver();
     }
-
-
 }
