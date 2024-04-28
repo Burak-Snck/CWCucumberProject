@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CWJunitProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CWTestNGPOMProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SeleniumCodeChallenge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SeleniumFirstProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TestNG-Project--master" vcs="Git" />
   </component>
 </project>

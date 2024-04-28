@@ -2,9 +2,11 @@ package stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class CommonStepDefinitions {
+  
 
     @And("user closes browser")
     public void userClosesBrowser() {
