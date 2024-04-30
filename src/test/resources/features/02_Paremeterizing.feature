@@ -30,7 +30,7 @@ Feature: Parameterizing Feature
     And user closes browser
 
   @WrongPassword
-  Scenario: Wrong Email
+  Scenario: Wrong Password
     When user enters username "clarusway@hotmail.com"
     And user enters password "XYZ.123"
     And user clicks on submit button
