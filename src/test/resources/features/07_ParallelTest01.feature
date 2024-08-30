@@ -1,5 +1,5 @@
 @Parallel
-Feature:
+Feature: Form Test
   Scenario: Form Test
     Given user goes to home page
     When user enters username
